@@ -171,8 +171,18 @@ section {
 } 
 
 @media screen and (max-width: 320px) {
+
+    header {   
+        width: 400px !important;
+       
+    }
+   .sidebar-main{
+    width: 400px !important;
+   }
+
     .sidebar a {
-        font-size: 0.7rem;
+        width: 100% !important;
+        font-size: 0.7rem !important;
         padding-left: 20px;
     }
 } 
