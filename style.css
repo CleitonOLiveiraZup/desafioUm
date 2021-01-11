@@ -221,6 +221,12 @@ section {
 
 /* Responsive Main Content */
 
+@media screen and (min-width: 1440px) {
+    .table{
+        margin-left: 27rem;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .table {
         width: 100%;
